@@ -1,0 +1,34 @@
+// define variable
+var alienColor = "green";
+// using If and Else-If Statements
+if (alienColor === "green") {
+    console.log("(Version 1) you short down green alien you have earned 5 points");
+}
+else if (alienColor === "yellow") {
+    console.log("you short down yello alien you have earned 10 points");
+}
+else if (alienColor === "red") {
+    console.log("you short down red alien you have earned 15 points");
+}
+// version 2
+var alienColor2 = "yellow";
+if (alienColor2 === "green") {
+    console.log("you short down green alien you have earned 5 points");
+}
+else if (alienColor2 === "yellow") {
+    console.log("(Version 2) you short down yellow alien you earned 10 points");
+}
+else if (alienColor2 === "red") {
+    console.log("you short down red alien you have earned 15 points");
+}
+// Version 3
+var alienColor3 = "red";
+if (alienColor3 === "green") {
+    console.log("you short down green alien you have earned 5 points");
+}
+else if (alienColor3 === "yellow") {
+    console.log("you short down yello alien you have earned 10 points");
+}
+else if (alienColor3 === "red") {
+    console.log("(Version 3) you short down red alien you earned 15 points");
+}
